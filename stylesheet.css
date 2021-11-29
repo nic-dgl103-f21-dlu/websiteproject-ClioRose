@@ -63,7 +63,6 @@ body {
 .info h2 {
   display: flex;
   justify-content: center;
-  font-family: fantasy;
   color: black;
 }
 
@@ -71,7 +70,6 @@ body {
    display: flex;
    flex-direction: column;
    justify-content: center;
-   color:indianred;
    width: 350px;
    padding: 20px;
    border-style: solid;
@@ -85,7 +83,6 @@ body {
  .info aside {
    display: flex;
    flex-direction: column;
-   color: indianred;
    width: 350px;
    padding: 20px;
    border-style: solid;
@@ -110,7 +107,6 @@ body {
 
 .events h2 {
   display: flex;
-  font-family: fantasy;
   justify-content: center;
   color: black;
 }
@@ -118,7 +114,6 @@ body {
  .events article {
    display: flex;
    flex-direction: column;
-   color: indianred;
    width: 600px;
    border-style: solid;
    border-color: maroon;
@@ -131,7 +126,6 @@ body {
  .events aside {
    display: flex;
    flex-direction: column;
-   color: indianred;
    width: 600px;
    border-style: solid;
    border-color: maroon;
