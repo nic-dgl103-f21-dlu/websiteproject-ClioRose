@@ -6,7 +6,6 @@
 header {
   display: flex;
   flex-direction: row;
-  size: auto;
   justify-content: center;
   justify-content: space-evenly;
   background-color: #c28abf;
@@ -33,9 +32,6 @@ nav ul {
   padding: 0;
 }
 
-nav li { 
-  float: center; 
-}
 
 nav li a {
   padding: 15px;
