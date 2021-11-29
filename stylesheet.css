@@ -52,7 +52,8 @@ nav li a:hover {
 .photobanner {
   display: flex;
   justify-content: center;
-  width: 80%;
+  background-image: url(9K46876);
+  width: 100%;
 }
 body {
   background-color: #c99000;
