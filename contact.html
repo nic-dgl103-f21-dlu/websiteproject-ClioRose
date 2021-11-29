@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Contact</title>
+</head>
+<header><a href="index.html"><img src="Photos/Watermark 2.png" alt="Clio Rose Photography" width="300"></a>
+</header>
+<nav>
+    <div class="nav">
+    <ul>
+    <li><a href="index.html">Home</a></li> &nbsp;
+    <li><a href="portfolio.html">Portfolio</a></li> &nbsp;
+    <li><a href="contact.html">Contact</a></li> &nbsp; 
+    </ul>
+    </div>
+</nav>
+<body>
+    <div class="wrapper-form">
+        <h2>Contact Form</h2>
+        <form method="post" action="https://contact.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Ex: Mike">
+       
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Ex: Smith">
+       
+          <label for="email">Email <span class="label-required">* (required)</span></label>
+          <input type="email" id="email" name="email" placeholder="Ex: mike@yahoo.com" required>
+       
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Please tell us a little about your enquiry" style="height:200px"></textarea>
+       
+          <div class="wrapper-button">
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+       </div>
+            
+       </div>
+       <footer>
+        <div class="contact">
+        <a href="mailto:cliorosephotography@gmail.com">Contact Me!</a>
+        </div>
+        <div class="copyright">
+            <p><small>Copyright &copy; 2021 Clio Nelson. All rights reserved</small></p>
+        </div> 
+        <div class="buttons">
+        <a href="https://www.facebook.com/Clio-Rose-Photography-1380053792294234/">
+        <ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="https://www.instagram.com/cliorosephotography/?hl=en">
+        <ion-icon name="logo-instagram"></ion-icon></a>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script><!--Got these from Ion Icons-->
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        </div>
+        </footer>   
+</body>
+</html>
